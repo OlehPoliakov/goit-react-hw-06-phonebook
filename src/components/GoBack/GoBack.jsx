@@ -17,7 +17,7 @@ function GoBack({ text, path }) {
   );
 }
 
-GoBack.prototype = {
+GoBack.propTypes = {
   text: PropTypes.string,
   path: PropTypes.string,
 };
