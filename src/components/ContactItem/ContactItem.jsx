@@ -36,6 +36,7 @@ ContactItem.propTypes = {
   name: PropTypes.string.isRequired,
   number: PropTypes.string.isRequired,
   deleteBtn: PropTypes.func.isRequired,
+  id: PropTypes.string.isRequired,
 };
 
 export default ContactItem;
